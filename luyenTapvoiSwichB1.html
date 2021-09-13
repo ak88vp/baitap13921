@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /* bài tập 1
+      let brower=prompt('please type your')
+      switch (brower) {
+          case 'Edge':
+              alert("You've got the Edge!");
+              break;
+          case 'Chrome':
+          case 'Firefox':
+          case 'Safari':
+          case 'Opera':
+              alert('Okay we support these browsers too');
+              break;
+          default:
+              alert('We hope that this page looks ok!');
+      }*/
+   /* bài 2
+    let a = +prompt("nhập số ? ")
+
+    switch (a) {
+        case 0 :
+            alert('0')
+            break
+        case 1 :
+            alert('1')
+            break
+        case 2:
+        case 3:
+            alert('2,3')
+            break
+
+    } */
+    let value=+prompt("nhập số ?" , 0)
+    switch ((value >0 )? 1 :(value <0)? -1 :0 ) {
+        case 1:
+            alert("1")
+            break
+            case  -1 :
+                alert( "-1")
+            break
+        default :
+            alert( "0")
+
+
+
+    }
+
+
+</script>
+</body>
+</html>
